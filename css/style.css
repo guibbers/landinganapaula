@@ -1,0 +1,48 @@
+.cntt{
+    background-color: brown;
+    border: none;
+    color: #fff;
+    border: none;
+}
+
+.cntt:hover {
+    background-color: rgb(82, 14, 14);
+    color: #fff;
+}
+
+.cntt:visited {
+    background-color: brown;
+    outline: none;
+}
+
+.whitebg {
+    background-color: #FBFFFE !important;
+}
+
+.btnColor {
+    color: brown !important ;
+
+}
+
+.wpp {
+    border: 4px solid white;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: #25D366;
+    border-radius: 50%;
+}
+
+.wpp:hover {
+    background-color: 	#075E54;
+}
+
+.whats {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+}
+
+.leftAlign{
+    text-align: right;
+}
