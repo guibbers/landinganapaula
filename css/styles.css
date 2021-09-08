@@ -11299,7 +11299,7 @@ header.masthead {
 header.masthead:before {
   content: "";
   position: absolute;
-  background-color: rgba(145, 34, 34, 0.5);
+  /* background-color: rgba(145, 34, 34, 0.5); */
   height: 100%;
   width: 100%;
   top: 0;
@@ -11355,7 +11355,7 @@ header.masthead h1, header.masthead .h1 {
 .call-to-action:before {
   content: "";
   position: absolute;
-  background-color: rgba(145, 34, 34, 0.5);
+  /* background-color: rgba(145, 34, 34, 0.5); */
   height: 100%;
   width: 100%;
   top: 0;

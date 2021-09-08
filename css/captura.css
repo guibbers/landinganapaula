@@ -1,0 +1,119 @@
+/* IMPORT FONT  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* RESET  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY  */
+
+body {
+    background-color: #000;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    background-color: #48C5CE;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.title {
+    font-size: 26px;
+}
+
+/* MAIN SECTION  */
+
+section {
+    background-image: url('../assets/img/fundo.png');
+    background-size: cover;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.formContainer {
+    background-color: #FFFFFFBB;
+    float: right;
+    max-width: 300px;
+    padding: 25px;
+}
+
+@media (max-width: 500px) {
+    
+    section {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+input, select {
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+button[type="submit"]{
+    background-color: #48C5CE;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 15px;
+    margin: auto;
+    transition: 400ms;
+}
+
+button[type="submit"]:hover {
+    background-color: #38949b;
+}
+
+/* FOOTER  */
+
+footer {
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 250px;
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    margin-left: 40px;
+    max-width: 40%;
+    text-align: left;
+}
+
+.description p, .description h3 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}

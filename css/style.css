@@ -10,6 +10,10 @@
     color: #fff;
 }
 
+.bg-marc {
+    background-color: #fff;
+}
+
 .cntt:visited {
     background-color: brown;
     outline: none;
@@ -21,7 +25,12 @@
 
 .btnColor {
     color: brown !important ;
+    transition: 500ms;
 
+}
+
+.btnColor:hover {
+    color: rgb(82, 14, 14) !important;
 }
 
 .wpp {
@@ -31,6 +40,7 @@
     padding: 10px;
     background-color: #25D366;
     border-radius: 50%;
+    transition: 400ms;
 }
 
 .wpp:hover {
@@ -45,4 +55,30 @@
 
 .leftAlign{
     text-align: right;
+}
+
+/* LINKS REDES SOCIAIS */
+
+.sm-link {
+    color: #B14B5B;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.sm-link:hover {
+    color: rgb(82, 14, 14);
+}
+
+@media ( max-width: 600px ) {
+    
+    header.masthead {
+
+        padding-bottom: 0;
+
+    }
+
+    .leftAlign {
+        text-align: center;
+    }
+
 }
