@@ -57,6 +57,10 @@
     text-align: right;
 }
 
+.rightAlign {
+    text-align: left;
+}
+
 /* LINKS REDES SOCIAIS */
 
 .sm-link {
